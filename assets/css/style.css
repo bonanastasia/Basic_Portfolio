@@ -1,0 +1,225 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 24px;
+	line-height: 36px;
+	color: #333;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/topography.png");
+}
+header{
+	background-color: #fff;
+	border-bottom: 3px solid #ccc;
+	height:80px;
+}
+#header-info{
+	display:flex;
+	justify-content: space-between;
+	align-items: stretch;
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+h1{
+
+	height:80px;
+	background-color: #4aaaa5;
+	font-size: 36px;
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float:left;
+	margin:0;
+	margin-left:10px;
+	padding: 20px;
+	
+}
+h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 36px;
+	color: #4aaaa5;
+	border-bottom: 5px solid #ccc;
+	padding-bottom:40px;
+}
+h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	color:#4aaaa5;
+	border-bottom: 5px solid #ccc;
+	padding-bottom:30px;
+}
+nav{
+	float:right;
+	padding:20px;
+	margin:0px;
+
+
+}
+nav a{
+	width:60px;
+	font-size:20px;
+	color: #ccc;
+	text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.main{
+
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#about{
+
+	width: 650px;
+	background:#fff;
+	border: 2px solid #ccc;
+	padding:20px;
+	float:left;
+	margin:10px;
+
+}
+
+
+}
+#bio-image{
+	widows: 80px;
+	height: 80px;
+	padding:10px;
+	float: left;
+
+}
+p{
+	
+	font-size: 18px;
+}
+
+img{
+	height:295px;
+	width:295px;
+}
+
+img#bio-image{
+	
+	width: 200px;
+	height: 200px;
+	padding:10px;
+	float: left;
+}
+#firstImage{
+	position:relative;
+}
+
+#secondImage{
+	position:relative;
+}
+
+#thirdImage{
+	position:relative;
+}
+
+#forthImage{
+	position:relative;
+}
+
+
+#overlay{
+	position: absolute;
+	bottom:47px;
+	left:22px;
+	right:0;
+}
+p#label1{
+	text-align: center;
+	background-color: teal;
+	padding:10px;
+	width:250px;
+	color:#fff;
+}
+
+
+
+aside{
+	
+	text-align: center;
+	width: 270px;x
+	float: left;
+	margin: 10px;
+	padding:20px;
+	border: 2px solid #ccc;
+	background-color: #fff;
+
+
+}
+
+input[type=text] {
+
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color:#ccc;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:#ccc;
+    text-align: left;
+
+}
+
+input#form-message{
+	height: 500px;
+}
+
+input#form-message [type=text] select{
+	margin:0;
+}
+
+footer{
+	clear:both;
+	padding:10px;
+	width:100%;
+	text-align: center;
+	background-color: #666;
+	height: 80px;
+	border-top:10px solid #4aaaa5;
+	position:fixed;
+	bottom:0;
+	color:#fff;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+#img1{
+	position: relative;
+} 
+	
+}
